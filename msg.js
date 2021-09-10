@@ -75,7 +75,7 @@ msg.parseCSV = (content) => {
             const messages = {};
             for (const [textIndex, text] of texts.entries()) {
                 if (textIndex > 0 && text !== "") {
-                    messages[languages[textIndex]] = text.replace(/\\n/, "\n");
+                    messages[languages[textIndex]] = text.replace(/\\n/g, "\n");
                 }
             }
             data[key] = messages;

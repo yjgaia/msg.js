@@ -2,7 +2,7 @@
     "name": "msg.js",
     "author": "Young Jae Sim",
     "homepage": "https://github.com/Hanul/msg.js",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "types": "./msg.d.ts",
     "main": "./msg.js",
     "dependencies": {
